@@ -16,5 +16,7 @@ spec:
         kind: HelmRepository
         name: podinfo
       interval: 5m
+  driftDetection:
+    mode: enabled
   values:
     replicaCount: 2
