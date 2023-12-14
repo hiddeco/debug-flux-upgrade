@@ -5,7 +5,7 @@ metadata:
   name: podinfo-2
   namespace: flux-system
   annotations:
-    dummy: test
+    dummy: test-2
 spec:
   releaseName: podinfo-2
   interval: 10m
